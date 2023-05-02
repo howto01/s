@@ -50,10 +50,8 @@ key: _formkey,
 child: Column(
 // ignore: prefer_const_literals_to_create_immutables
 children: [
-Image.asset(
-"assets/img/profile(1).png",
-height: 200,
-width: 275,
+Image.network(  
+  'https://picsum.photos/250?image=9',  
 ),
 SizedBox(height: 20),
 Text(
